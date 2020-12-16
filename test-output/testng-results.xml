@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-12T17:22:45 EST" name="Suite One" finished-at="2020-11-12T17:22:51 EST" duration-ms="5698">
+    <groups>
+      <group name="bGroup">
+        <method signature="SanityTest.TestFour()[pri:0, instance:com.test.one.SanityTest@482bce4f]" name="TestFour" class="com.test.one.SanityTest"/>
+        <method signature="SanityTest.TestTwo()[pri:0, instance:com.test.one.SanityTest@482bce4f]" name="TestTwo" class="com.test.one.SanityTest"/>
+      </group> <!-- bGroup -->
+      <group name="aGroup">
+        <method signature="SanityTest.TestOne()[pri:0, instance:com.test.one.SanityTest@482bce4f]" name="TestOne" class="com.test.one.SanityTest"/>
+        <method signature="SanityTest.TestThree()[pri:0, instance:com.test.one.SanityTest@482bce4f]" name="TestThree" class="com.test.one.SanityTest"/>
+      </group> <!-- aGroup -->
+    </groups>
+    <test started-at="2020-11-12T17:22:45 EST" name="Base Test" finished-at="2020-11-12T17:22:45 EST" duration-ms="27">
+      <class name="com.test.one.BaseTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.test.one.BaseTest@11c9af63]" started-at="2020-11-12T17:22:45 EST" name="beforeTest" finished-at="2020-11-12T17:22:45 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.test.one.BaseTest@11c9af63]" started-at="2020-11-12T17:22:45 EST" name="beforeClass" finished-at="2020-11-12T17:22:45 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="methodMethod()[pri:0, instance:com.test.one.BaseTest@11c9af63]" started-at="2020-11-12T17:22:45 EST" name="methodMethod" finished-at="2020-11-12T17:22:45 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodMethod -->
+        <test-method signature="TestOne(java.lang.String)[pri:0, instance:com.test.one.BaseTest@11c9af63]" started-at="2020-11-12T17:22:45 EST" name="TestOne" finished-at="2020-11-12T17:22:45 EST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adnan Rahman]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestOne -->
+        <test-method is-config="true" signature="methodMethod()[pri:0, instance:com.test.one.BaseTest@11c9af63]" started-at="2020-11-12T17:22:45 EST" name="methodMethod" finished-at="2020-11-12T17:22:45 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.one.BaseTest@11c9af63]" started-at="2020-11-12T17:22:45 EST" name="afterMethod" finished-at="2020-11-12T17:22:45 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="TestTwo(java.lang.String, int)[pri:0, instance:com.test.one.BaseTest@11c9af63]" started-at="2020-11-12T17:22:45 EST" name="TestTwo" finished-at="2020-11-12T17:22:45 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTwo -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.one.BaseTest@11c9af63]" started-at="2020-11-12T17:22:45 EST" name="afterMethod" finished-at="2020-11-12T17:22:45 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.test.one.BaseTest@11c9af63]" started-at="2020-11-12T17:22:45 EST" name="afterClass" finished-at="2020-11-12T17:22:45 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.test.one.BaseTest@11c9af63]" started-at="2020-11-12T17:22:45 EST" name="afterTest" finished-at="2020-11-12T17:22:45 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.test.one.BaseTest -->
+    </test> <!-- Base Test -->
+    <test started-at="2020-11-12T17:22:45 EST" name="Smoke Test" finished-at="2020-11-12T17:22:45 EST" duration-ms="6">
+      <class name="com.test.one.SmokeTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.test.one.SmokeTest@306cf3ea]" started-at="2020-11-12T17:22:45 EST" name="beforeClass" finished-at="2020-11-12T17:22:45 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TestOne()[pri:0, instance:com.test.one.SmokeTest@306cf3ea]" started-at="2020-11-12T17:22:45 EST" name="TestOne" finished-at="2020-11-12T17:22:45 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestOne -->
+        <test-method is-config="true" signature="methodMethod()[pri:0, instance:com.test.one.SmokeTest@306cf3ea]" started-at="2020-11-12T17:22:45 EST" name="methodMethod" finished-at="2020-11-12T17:22:45 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodMethod -->
+        <test-method is-config="true" signature="methodMethod()[pri:0, instance:com.test.one.SmokeTest@306cf3ea]" started-at="2020-11-12T17:22:45 EST" name="methodMethod" finished-at="2020-11-12T17:22:45 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.one.SmokeTest@306cf3ea]" started-at="2020-11-12T17:22:45 EST" name="afterMethod" finished-at="2020-11-12T17:22:45 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="TestTwo()[pri:0, instance:com.test.one.SmokeTest@306cf3ea]" started-at="2020-11-12T17:22:45 EST" name="TestTwo" finished-at="2020-11-12T17:22:45 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTwo -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.one.SmokeTest@306cf3ea]" started-at="2020-11-12T17:22:45 EST" name="afterMethod" finished-at="2020-11-12T17:22:45 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.test.one.SmokeTest@306cf3ea]" started-at="2020-11-12T17:22:45 EST" name="afterClass" finished-at="2020-11-12T17:22:45 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.test.one.SmokeTest -->
+    </test> <!-- Smoke Test -->
+    <test started-at="2020-11-12T17:22:45 EST" name="Sanity Test" finished-at="2020-11-12T17:22:45 EST" duration-ms="12">
+      <class name="com.test.one.SanityTest">
+        <test-method signature="TestFour()[pri:0, instance:com.test.one.SanityTest@482bce4f]" started-at="2020-11-12T17:22:45 EST" name="TestFour" finished-at="2020-11-12T17:22:45 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFour -->
+        <test-method signature="TestOne()[pri:0, instance:com.test.one.SanityTest@482bce4f]" started-at="2020-11-12T17:22:45 EST" name="TestOne" finished-at="2020-11-12T17:22:45 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestOne -->
+        <test-method signature="TestThree()[pri:0, instance:com.test.one.SanityTest@482bce4f]" started-at="2020-11-12T17:22:45 EST" name="TestThree" finished-at="2020-11-12T17:22:45 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestThree -->
+        <test-method signature="TestTwo()[pri:0, instance:com.test.one.SanityTest@482bce4f]" started-at="2020-11-12T17:22:45 EST" name="TestTwo" finished-at="2020-11-12T17:22:45 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTwo -->
+      </class> <!-- com.test.one.SanityTest -->
+    </test> <!-- Sanity Test -->
+    <test started-at="2020-11-12T17:22:45 EST" name="Regression Test" finished-at="2020-11-12T17:22:51 EST" duration-ms="5598">
+      <class name="com.test.one.BaseTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.test.one.BaseTest@11c9af63]" started-at="2020-11-12T17:22:45 EST" name="beforeSuite" finished-at="2020-11-12T17:22:45 EST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.test.one.BaseTest@11c9af63]" started-at="2020-11-12T17:22:51 EST" name="afterSuite" finished-at="2020-11-12T17:22:51 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.test.one.BaseTest -->
+      <class name="com.test.one.RegressionTest">
+        <test-method signature="openChromeBrowser()[pri:0, instance:com.test.one.RegressionTest@7690781]" started-at="2020-11-12T17:22:45 EST" name="openChromeBrowser" finished-at="2020-11-12T17:22:49 EST" duration-ms="3584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChromeBrowser -->
+        <test-method signature="openFirefoxBrowser()[pri:0, instance:com.test.one.RegressionTest@7690781]" started-at="2020-11-12T17:22:45 EST" name="openFirefoxBrowser" finished-at="2020-11-12T17:22:51 EST" duration-ms="5596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFirefoxBrowser -->
+        <test-method signature="processNumOne()[pri:0, instance:com.test.one.RegressionTest@7690781]" started-at="2020-11-12T17:22:49 EST" name="processNumOne" finished-at="2020-11-12T17:22:49 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- processNumOne -->
+        <test-method signature="processNumTwo()[pri:0, instance:com.test.one.RegressionTest@7690781]" started-at="2020-11-12T17:22:49 EST" name="processNumTwo" finished-at="2020-11-12T17:22:49 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- processNumTwo -->
+      </class> <!-- com.test.one.RegressionTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Suite One -->
+</testng-results>

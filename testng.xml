@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite One">
+
+	<test name="Base Test">
+		<parameter name="browser" value="firefox" />
+		<parameter name="userName" value="Adnan Rahman" />
+		<parameter name="count" value="3" />
+		<classes>
+			<class name="com.test.one.BaseTest"></class>
+		</classes>
+	</test>
+
+	<test name="Smoke Test">
+		<classes>
+			<class name="com.test.one.SmokeTest"></class>
+		</classes>
+	</test>
+
+	<test name="Sanity Test" parallel="true" thread-count="2"> 
+		<groups>
+			<run>
+				<include name="bGroup"/>
+				<exclude name="aGroup"/>
+			</run>
+		</groups>
+		<classes> 
+			<class name="com.test.one.SanityTest"></class> 
+		</classes> 
+	</test>
+	
+	<test name="Regression Test" parallel="true" thread-count="2"> 
+		<classes> 
+			<class name="com.test.one.RegressionTest"></class> 
+		</classes> 
+	</test>
+</suite>
